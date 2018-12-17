@@ -18,7 +18,7 @@ return console.log('there was a problem connecting to the database!' + err);
 }
 console.log('connected!');
 var team = new Team({
-name: 'CS'
+name: 'ABC'
 });
 team.save(function (error, data) {
 if (error) {
