@@ -26,7 +26,6 @@ console.log(error);
 } else {
 console.dir(data);
 }
-db.close();
-process.exit();
+
 });
 });

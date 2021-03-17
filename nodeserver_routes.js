@@ -26,7 +26,7 @@ http.createServer(function(req, res) {
                 return console.log('there was a problem connecting to the database!' + err);
             }
             console.log('connected!');
-            Employee.findOneAndUpdate({ name: 'Hamid' }, { name: 'Rashid Mukhtar' },
+            Employee.findOneAndUpdate({ name: 'Hamid' }, { name: 'Muhammad Rashid Mukhtar' },
                 function(err, author) {
                     if (err) throw err;
                     res.end(author.toString());

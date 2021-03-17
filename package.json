@@ -10,10 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/tekmode/nodebasic.git"
   },
-  "author": "",
+  "author": "rashid",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tekmode/nodebasic/issues"
   },
-  "homepage": "https://github.com/tekmode/nodebasic#readme"
+  "homepage": "https://github.com/tekmode/nodebasic#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "mongoose": "^5.9.3",
+    "nodemon": "^2.0.4"
+  }
 }

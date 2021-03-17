@@ -7,7 +7,7 @@ res.writeHead(200, {'Content-Type': 'text/html'});
 res.end('Hello <strong>home page</strong>');
 } else if (req.url === '/account' && req.method === 'GET') {
     var readableStream = fs.createReadStream('abc.txt');
-    var writableStream = fs.createWriteStream('file2.txt');
+    var writableStream = fs.createWriteStream('file3.txt');
     readableStream.pipe(writableStream);
     readableStream.pipe(res);      
    
